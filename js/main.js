@@ -52,6 +52,7 @@ const openBtn_5 = document.getElementById('openBtn_5');
 const openBtn_6 = document.getElementById('openBtn_6');
 const openBtn_7 = document.getElementById('openBtn_7');
 const openBtn_8 = document.getElementById('openBtn_8');
+const openBtn_9 = document.getElementById('openBtn_9');
 
 openBtn.addEventListener('click', function () {
     popup.classList.add('show');
@@ -78,6 +79,9 @@ openBtn_7.addEventListener('click', function () {
     popup.classList.add('show');
 });
 openBtn_8.addEventListener('click', function () {
+    popup.classList.add('show');
+});
+openBtn_9.addEventListener('click', function () {
     popup.classList.add('show');
 });
 
